@@ -1,16 +1,16 @@
-# JKFLIPFLOP-USING-IF-ELSE
+# EXPERIMENT 4: IMPLEMENTATION OF JK FLIPFLOP
 
-**AIM:** 
+# AIM:
 
 To implement  JK flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+# SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+# THEORY:
 
-**JK Flip-Flop**
+# JK Flip-Flop
 
 JK flip-flop is the modified version of SR flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of JK flip-flop is shown in the following figure.
 
@@ -32,17 +32,49 @@ By using three variable K-Map, we can get the simplified expression for next sta
 
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
-**Procedure**
+# PROCEDURE:
 
-/* write all the steps invloved */
+1.Launch Quartus on your computer and create a new project:
 
-**PROGRAM**
+Go to File → New Project Wizard.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+Specify the project name, directory, and top-level entity name (e.g., JK_FlipFlop).
 
-**RTL LOGIC FOR FLIPFLOPS**
+Create the JK Flip-Flop Circuit and implement the JK Flip-Flop by writing VHDL/Verilog code.
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+2.Go to File → New → Select Verilog File.
 
-**RESULTS**
+Compile the Project
+
+Click on Processing → Start Compilation.
+
+Fix any syntax or schematic errors if present.
+
+3.Simulate the Circuit:
+
+Go to Tools → University Program VWF.
+
+Define the inputs for J, K, and CLK in the waveform editor.
+
+Run the simulation and observe the waveforms.
+
+4.Verify the Results.
+
+Compare the simulated results with the truth table for a JK Flip-Flop.
+
+# PROGRAM:
+
+![image](https://github.com/user-attachments/assets/ad37c9e1-1e46-4f7a-b000-b94a4b536e60)
+
+
+# RTL:
+
+![image](https://github.com/user-attachments/assets/0deeb615-90f6-4d22-895c-ae2db548cdad)
+
+# TIMING DIAGRAM:
+
+![image](https://github.com/user-attachments/assets/b77b557a-3126-4a7a-80a2-deb1510eb719)
+
+# RESULT:
+
+Implementation of JK flipflop using verilog and validating their functionality using their functional tables is verified.
